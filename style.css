@@ -97,6 +97,7 @@ input[type = "text"]{
     height: 650px;
     background-color:var(--color);
     padding-top: 3em ;
+    position: relative;
 
     display: flex;
     align-items: center;
@@ -192,10 +193,12 @@ span::after{
   .tdnn {
     margin: 0 auto;
     left: 3rem;
+    top: 0;
+    left: 35%;
     /*change size of toggle with font-size*/
     font-size: 30%;
     margin-top: 10em;
-     position: fixed;
+     position: absolute;
       height: var(--toggleHeight);
       width: var(--toggleWidth);
       border-radius: var(--toggleHeight);
