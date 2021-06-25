@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="tdnn">
+                <div class="moon">
+            </div>
+        </div>
+     <section class="add-book">
+        
+       
+        <form action="">
+            <h1>ADD BOOKS TO YOUR LIBRARY</h1>
+            <label for="book_title">
+                <p>Book Title</p>
+                <input type="text" id="book_title" name="book_title">
+
+            </label>
+            <label for="book_author">
+                <p>Book Author</p>
+                <input type="text" id="book_author">
+            </label>
+            <label for="num_page">
+                <p>Number of Book's Page</p>
+                <input type="text" name="num_page" id="num_page">
+
+            </label>
+            <label for="read">
+                <p>Completed?</p>
+                <div id="read">
+                    <select name="read" id="read" >
+                        <option value="question" selected disabled>Have you read the book?</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                    <span></span>
+                </div>
+            </label>
+            <!-- <button type="submit" value="Update" class="button">Update</button> -->
+            <input type="submit" value="Update" class="button">
+        </form>
+    </section>
+    <section class="stored-books">
+        
+    </section>
+          
+        
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js">
+        
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
